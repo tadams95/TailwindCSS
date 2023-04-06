@@ -9,28 +9,64 @@
   </head>
   <body>
     <!-- Positioning -->
-
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Absolute Child</p>
+      </div>
+    </div>
     <!-- Top left corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-200">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-400"></div>
+    </div>
     <!-- Top right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-200">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-400"></div>
+    </div>
     <!-- Bottom left corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-200">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-400"></div>
+    </div>
     <!-- Bottom right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-200">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-400"></div>
+    </div>
     <!-- Span top edge -->
-
+    <div class="relative h-32 w-32 bg-green-200">
+      <div class="absolute top-0 h-16 w-full bg-green-400"></div>
+    </div>
     <!-- Span left edge -->
-
+    <div class="relative h-32 w-32 bg-green-200">
+      <div class="absolute left-0 h-full w-16 bg-green-400"></div>
+    </div>
     <!-- Span right edge -->
-
+    <div class="relative h-32 w-32 bg-green-200">
+      <div class="absolute right-0 h-full w-16 bg-green-400"></div>
+    </div>
     <!-- Span bottom edge -->
-
+    <div class="relative h-32 w-32 bg-green-200">
+      <div class="absolute bottom-0 h-16 w-full bg-green-400"></div>
+    </div>
     <!-- Display Classes -->
-
+    <div class="block bg-blue-200">Block</div>
+    <div class="inline-block bg-blue-200">Inline Block</div>
+    <div class="inline bg-blue-200">Inline</div>
+    <div class="flex bg-blue-200">Flex</div>
     <!-- Z-Index -->
-
+    <div class="relative bg-blue-200">
+      <div class="absolute left-10 w-24 z-0 h-24 bg-blue-200">z-0</div>
+      <div class="absolute left-20 w-24 z-10 h-24 bg-blue-300">z-10</div>
+      <div class="absolute left-30 w-24 z-20 h-24 bg-blue-400">z-20</div>
+      <div class="absolute left-40 w-24 z-30 h-24 bg-blue-500">z-30</div>
+      <div class="absolute left-50 w-24 z-40 h-24 bg-blue-600">z-40</div>
+      <div class="absolute left-60 w-24 z-50 h-24 bg-blue-700">z-50</div>
+      <div class="absolute left-80 w-24 z-auto bg-blue-800">z-auto</div>
+    </div>
     <!-- Floats -->
+   <div class="w-1/2 mt-40">
+    <img src="../assets/img/img1.jpg" alt=""/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae earum saepe repellendus laboriosam rem porro. Quibusdam blanditiis atque illum nemo eveniet id. Porro, provident perspiciatis! Reiciendis similique iusto aut temporibus.</p>
+   </div>
   </body>
 </html>
 
